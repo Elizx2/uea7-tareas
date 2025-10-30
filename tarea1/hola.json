@@ -1,0 +1,22 @@
+{
+    "partes":[
+        "brazo",
+        "mano",
+        "cabeza",
+        "ojos",
+        "piernas",
+        "pecho",
+        "orejas",
+        "boca"
+    ],
+
+    "acciones":[
+        "doblar",
+        "abrir",
+        "cerrar",
+        "girar",
+        "saltar"
+    ]
+
+    
+}

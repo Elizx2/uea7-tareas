@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>corre dijo la tortuga</title>
+</head>
+<body>
+    <h1>JOSON Smith</h1>
+    <p>dice que:</p>
+    <p><span id ="accion"></span></p>
+
+    <!--<script src="hola.js"></script> -->
+    <script>
+        fetch('hola.json')
+        .then(response => response.json())
+        .then(json => { document.getElementById("accion").innerHTML=json.acciones[0] + " " + json.partes[0];
+            console.log(json);
+        } )
+    </script>
+</body>
+</html>
